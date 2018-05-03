@@ -1,0 +1,108 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!-- no title bar -->
+    <style name="AppTheme.NoTitleBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- no title bar & full screen -->
+    <style name="AppTheme.NoTitleBar.FullScreen">
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="TextLargeNormal">
+        <item name="fontPath">fonts/Helvetica.ttf</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    </style>
+
+    <style name="TextMediumNormal">
+        <item name="fontPath">fonts/Helvetica.ttf</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+
+    <style name="TextSmallNormal">
+        <item name="fontPath">fonts/Helvetica.ttf</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+
+    <style name="TextSmallBold">
+        <item name="fontPath">fonts/HelveticaBold.ttf</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+
+    <style name="TextMediumBold">
+        <item name="fontPath">fonts/HelveticaBold.ttf</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+
+    <style name="TextLargeBold">
+        <item name="fontPath">fonts/HelveticaBold.ttf</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    </style>
+
+    <style name="TextSmallItalic">
+        <item name="fontPath">fonts/HelveticaItalic.ttf</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+
+    <style name="TextMediumItalic">
+        <item name="fontPath">fonts/HelveticaItalic.ttf</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+
+    <style name="TextLargeItalic">
+        <item name="fontPath">fonts/HelveticaItalic.ttf</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    </style>
+
+    <style name="CustomProgressDialogTheme" parent="Theme.AppCompat.Dialog">
+        <item name="colorAccent">#EF4123</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="colorControlActivated">#EF4123</item>
+        <item name="android:src">#EF4123</item>
+    </style>
+
+    <style name="TextLabel" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorControlActivated">#FFCC00</item>
+        <item name="colorControlNormal">#FFCC00</item>
+    </style>
+
+
+    <style name="bg">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="empty_img">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+
+    <style name="SpinnerItemStyle" parent="@android:style/Widget.Holo.DropDownItem.Spinner">
+        <item name="android:spinnerItemStyle">@style/SpinnerItemStyle</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

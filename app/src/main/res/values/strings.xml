@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">AttendanceSystem</string>
+    <string name="manage_students">Manage Students</string>
+    <string name="attendance">Attendance</string>
+    <string name="attendance_history">Attendance History</string>
+    <string name="no_data_found">No data found!</string>
+    <string name="select_subject">Select Unit:</string>
+    <string name="units">Units</string>
+
+    <string-array name="subjects">
+        <item>PRT 471</item>
+        <item>DMY 123</item>
+        <item>TMV 556</item>
+    </string-array>
+
+    <string-array name="college">
+        <item>College of Business and Law</item>
+        <item>College of Education</item>
+        <item>College of Engineering,IT and Environment</item>
+        <item>College of Health and Human Sciences</item>
+        <item>College of Indigenous Futures,Arts &amp; Society</item>
+        <item>College of Nursing and Midwifery</item>
+
+    </string-array>
+
+    <string name="title_activity_unit_list">UnitListActivity</string>
+</resources>
